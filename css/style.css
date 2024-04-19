@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: url('../image/skycast.jpg');
+    background-size: cover;
+
+}
+.card{
+    width: 90%;
+    max-width: 570px;
+    background: linear-gradient(135deg, rgb(227, 227, 248) , rgb(96, 167, 253));
+   color: #fff;
+   margin: 100px auto 0;
+   border-radius: 20px;
+   padding: 40px 35px;
+   text-align: center;
+   box-shadow: to left( rgb(141, 141, 141) , rgba(143, 143, 143, 0.867) , rgba(156, 156, 156, 0.668), rgba(144, 144, 144, 0.399) , rgba(136, 136, 136, 0.097));
+   
+
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: rgb(255, 255, 255);
+    color: #448ed4;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex:1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search input::placeholder{
+    color: rgb(120, 179, 159);
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 16px;
+    
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 45px;
+    font-weight: 500px;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left; 
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+
+}
+.humidity , .wind{
+    font-size: 28px;
+    margin-top: -6px;
+
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
